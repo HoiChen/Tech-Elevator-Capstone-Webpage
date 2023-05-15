@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contactstyle.css">
+    <link rel="import" href="index.html">
+</head>
+<body>
+    <header>
+        <h1><img src="images/blue-pop.png" />Fred's Frozen Pops</h1>
+    </header>
+    <nav id="main-nav"> 
+        <button class="nav-button" target="_blank" onclick="window.location.href='index.html';" >Home</button>
+        <button class="nav-button">Store</button>
+        <button class="nav-button" target="_blank" onclick="window.location.href='contact-us.html';" >Contact Us</button>  
+    </nav>
+
+    <main>
+        <h2>Contact Us</h2>
+        <form>
+          <label for="Name">Name:</label>
+            </br>
+          <input id="Name" name="Name" type="text" />
+            </br> 
+          <label for="HowList">How did you hear of us?</label>
+            </br>
+          <select name="HowList" id="HowList">
+            <option value="Pops Monthly">Pops Monthly</option>
+            <option value="Online Ad">Online Ad</option>
+            <option value="Word Of Mouth">Word Of Mouth</option>
+            <option value="Other">Other</option>
+          </select>
+            </br>
+          <label for="FavColor">What is your favorite frozen pop?</label>
+            </br>  
+          <input id="FavColor" name="FavColor" type="color" />
+            </br>
+        <label for="Comments">Please let us know any comments you have:</label>
+            </br>  
+        <textarea id="Comments" name="Comments" cols="55" rows="10" ></textarea>
+            </br>
+        <input class="nav-button" type="Submit" value="Submit" id="Submit">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2022. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fred's Frozen Pops</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><img src="images/blue-pop.png" />Fred's Frozen Pops</h1>
+    </header>
+        <nav id="main-nav"> <!-- added id to differentiate -->
+            <button class="nav-button">Home</button> <!--switched from list to buttons -->
+            <button class="nav-button">Store</button>
+            <button class="nav-button" target="_blank" onclick="window.location.href='contact-us.html';" >Contact Us</button>  <!--this will redirect to the contact us page-->
+        </nav>
+
+    <main>
+        <img src="images/popsicle-rainbow.jpg"/>
+        <section id="maincontent">                  <!-- added section to differentiate the content form the img-->
+        <h2>Did you know?</h2>
+        <ul>
+            <li>The earliest known frozen pops date as far back as 1872. Back then, a frozen pop was called a <em>Hokey-Pokey</em>.</li>
+            <li>Frozen pops are also known as freezer pops, ice lollies, and ice pops.</li>
+            <li>The world's largest frozen pop was made in 1997 and was 21 feet tall.</li>
+            <li>Frozen pops have become so POP-ular that a common arts and craft item is called a popsicle stick, named after the most famous brand of pop.</li>
+        </ul>
+        </section>
+    </main>
+    <section id="section1">
+        <img src="images/blue-pop.png"/><!-- added the image to the section-->
+        <h2>Freds Great Frozen Pop Race</h2> 
+        <p>Don't forget to sign up for the race! Each participant will recieve their own box of pops when they reach the end.</p>
+    </section>
+    <section id="section2">
+        <h2>Get refreshed this summer</h2>
+        <p>Mark this very special occasion of the launch of Fred's Frozen Pops by buying a gift from our stunning array of items, shipped directly from Cleveland.</p>
+        <nav>
+            <button class="store-button" type="button">Store</button> <!-- modified this to a button with class to match the CSS file, although would need to use JS to make a link?-->
+        </nav>
+    </section>
+    <footer>
+        <p>&copy; 2023. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
